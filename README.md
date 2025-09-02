@@ -11,9 +11,9 @@ These can be made with input display built in using an Arduino and [RetroSpy](ht
 # Wiring
 ![n64controllerpinout](https://ezhid.sourceforge.net/n64pad.png)
 - Here is a crude wiring diagram
-<img width="1772" height="783" alt="image" src="https://github.com/user-attachments/assets/89bde62b-a37c-4d41-b083-a67c0e1e64f8" />
+- <img width="1772" height="783" alt="image" src="https://github.com/user-attachments/assets/89bde62b-a37c-4d41-b083-a67c0e1e64f8" />
 - First, cut the 2 female ends of the extentsion cables off and use some wire strippers to exposse the 3 internsl wires. Also strip the end of the cable on the male side.
-![cutfemalen64cable](https://cdn-libip.nitrocdn.com/iMRXeHqvJNLnmtuPoFubLDGaSTAaUvWe/assets/images/optimized/rev-4799c94/raw.githubusercontent.com/jaburns/NintendoSpy/master/docs/tutorial-images/stripped.jpg)
+- <img width="800" height="423" alt="image" src="https://github.com/user-attachments/assets/8741fe55-5f1a-4973-9a8b-425630231953" /> 
 - You will need to connect all of the N64 3.3v wires together (These are typically soldered with red wires)
 - Next do the same for the GND wires (Typically black wires). If you are adding Input Display be sure to connect the GND to the Arduino as per the schematic  
 - For the switch, connect the data lines from the female ports(typically white or green wires) to the outer pins of the SPDT switch and then connect the male data line to the centre pin (and Arduino pin D2 if adding Input display)
